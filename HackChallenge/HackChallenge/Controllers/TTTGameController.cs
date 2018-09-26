@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace HackChallenge.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/tttgame")]
     [ApiController]
     public class TTTGameController : ControllerBase
     {
@@ -23,12 +23,13 @@ namespace HackChallenge.Controllers
             return games.Select(x => x._gameID);
         }
 
-        // GET: api/TTTGame/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        // GET: api/TTTGame/GAMEID
+        [HttpGet("{gameID}", Name = "Get")]
+        public TTTGame Get(string gameID)
         {
-            //ToDo: Get game using game ID
-            return "value";
+            System.Diagnostics.Debugger.Break();
+            Console.WriteLine("THIS IS THE GAME ID: " + gameID);
+            return games.FirstOrDefault(x => x._gameID.Equals(gameID));
         }
 
         // POST: api/TTTGame
@@ -41,11 +42,11 @@ namespace HackChallenge.Controllers
 
         }
 
-        // PUT: api/TTTGame/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT: api/TTTGame/play
+        [HttpPost("play")]
+        public void Post([FromBody] NewMoveObject value)
         {
-            //ToDo: Make a move in a game
+            games.FirstOrDefault(x => x._gameID.Equals(value.GameId)).MakeMove(value.BoardPosition, value.Player);
         }
 
         // DELETE: api/ApiWithActions/5

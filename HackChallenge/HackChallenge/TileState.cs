@@ -7,8 +7,8 @@ namespace HackChallenge
 {
     public enum TileState
     {
+        Empty,
         X,
-        O,
-        Empty
+        O
     }
 }

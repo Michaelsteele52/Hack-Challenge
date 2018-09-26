@@ -12,3 +12,17 @@ C:\Development\CSharp\TikTakToe\HackChallenge\HackChallenge\obj\Debug\netcoreapp
 C:\Development\CSharp\TikTakToe\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.RazorTargetAssemblyInfo.cache
 C:\Development\CSharp\TikTakToe\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.dll
 C:\Development\CSharp\TikTakToe\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.pdb
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\bin\Debug\netcoreapp2.1\HackChallenge.deps.json
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\bin\Debug\netcoreapp2.1\HackChallenge.runtimeconfig.json
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\bin\Debug\netcoreapp2.1\HackChallenge.runtimeconfig.dev.json
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\bin\Debug\netcoreapp2.1\HackChallenge.dll
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\bin\Debug\netcoreapp2.1\HackChallenge.pdb
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.csprojAssemblyReference.cache
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.csproj.CoreCompileInputs.cache
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.RazorAssemblyInfo.cache
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.RazorAssemblyInfo.cs
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.AssemblyInfoInputs.cache
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.AssemblyInfo.cs
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.RazorTargetAssemblyInfo.cache
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.dll
+C:\development\Hack-Challenge\HackChallenge\HackChallenge\obj\Debug\netcoreapp2.1\HackChallenge.pdb

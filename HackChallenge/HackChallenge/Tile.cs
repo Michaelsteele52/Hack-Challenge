@@ -9,9 +9,9 @@ namespace HackChallenge
     {
         private TileState _state;
 
-        public Tile(TileState state)
+        public Tile()
         {
-            this._state = state;
+            this._state = TileState.Empty;
         }
 
         public TileState GetState()

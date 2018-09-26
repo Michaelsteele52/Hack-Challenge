@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HackChallenge.HTTPObjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -12,13 +13,14 @@ namespace HackChallenge.Controllers
     [ApiController]
     public class TTTGameController : ControllerBase
     {
+        private static List<TTTGame> games = new List<TTTGame>();
+
         // GET: api/TTTGame
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            //ToDo: Get all game IDs
-
-            return new string[] { "value1", "value2" };
+            //return new [] {"String"};
+            return games.Select(x => x._gameID);
         }
 
         // GET: api/TTTGame/5
@@ -31,10 +33,12 @@ namespace HackChallenge.Controllers
 
         // POST: api/TTTGame
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] NewGameRequestObject value)
         {
+         games.Add(new TTTGame(value));
+           System.Diagnostics.Debugger.Break();
             //ToDo: Create a new game
-            
+
         }
 
         // PUT: api/TTTGame/5
